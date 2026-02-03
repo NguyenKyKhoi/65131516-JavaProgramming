@@ -3,17 +3,19 @@ public class BaiTap1 {
 
 	public static void main(String[] args) {
 		// 1. khai báo các biến
-		double a = 15;
-		double b = 4;
+		int a = 15;
+		int b = 4;
 		double c = 3.5;
 
 		// 2. Tính toán
-		double tong = a + b;
+		int tong = a + b;
 		double thuong = a / b;
+		int phanDu = a;
 
 		// 3. In kết quả
 		System.out.println("Tổng là: " + tong);
-		System.out.println("Thương là: " + thuong + "\n");
+		System.out.println("Thương là: " + thuong);
+		System.out.println("Phần dư là: " + phanDu);
 	}
 
 }
