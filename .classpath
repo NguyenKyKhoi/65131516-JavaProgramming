@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BaiTap_1/src"/>
+	<classpathentry kind="src" path="BaiTap_2/src"/>
+	<classpathentry kind="src" path="BaiTap1_BienPhepToan/src"/>
+	<classpathentry kind="src" path="BaiTap1_NhapXuat_TinhTong2So/src"/>
+	<classpathentry kind="src" path="BaiTap2_CDNhietDo/src"/>
+	<classpathentry kind="src" path="BaiTap3_TCSBMI/src"/>
+	<classpathentry kind="src" path="BaiTap4_TinhTienDien/src"/>
+	<classpathentry kind="src" path="HelloWorld/src"/>
+	<classpathentry kind="output" path="BaiTap1_BienPhepToan/bin"/>
+</classpath>
