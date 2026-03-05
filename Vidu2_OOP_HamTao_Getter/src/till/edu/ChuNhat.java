@@ -40,4 +40,13 @@ public class ChuNhat {
 //		this.rong = rong;
 //	}
 
+	// phương thức tóm tắt thông tin
+	public String toString() {
+		String s = "Hình này có chiều dài = ";
+		s = s + dai;
+		s = s + " và chiều rộng = " + rong;
+		// s = "Hình này có chiều dài =" + dai + " và chiều rộng = "+ rong;
+		return s;
+	}
+
 }
