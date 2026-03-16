@@ -22,6 +22,15 @@ public class MainQuanLySinhVien {
 		SinhVien sv = qlsv.timTheoMa("SV003");
 		System.out.println("Tìm SV003: " + (sv != null ? sv : "Không tìm thấy"));
 
+		// Tìm điểm cao nhất
+		System.out.println("\n=== SINH VIÊN ĐIỂM CAO NHẤT ===");
+		SinhVien svCaoNhat = qlsv.timDiemCaoNhat();
+		System.out.println(svCaoNhat != null ? svCaoNhat : "không có sinh viên");
+
+		// Tính điểm trung bình lớp
+		System.out.println("\n=== Điểm Trung Bình Lớp ===");
+		System.out.println("Điểm trung bình : " + qlsv.tinhDiemTrungBinhLop());
+
 	}
 
 }
