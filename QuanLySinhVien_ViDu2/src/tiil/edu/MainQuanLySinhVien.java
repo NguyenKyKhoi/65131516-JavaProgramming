@@ -1,5 +1,7 @@
 package tiil.edu;
 
+import java.util.List;
+
 public class MainQuanLySinhVien {
 
 	public static void main(String[] args) {
@@ -30,6 +32,15 @@ public class MainQuanLySinhVien {
 		// Tính điểm trung bình lớp
 		System.out.println("\n=== Điểm Trung Bình Lớp ===");
 		System.out.println("Điểm trung bình : " + qlsv.tinhDiemTrungBinhLop());
+
+		// Lọc sinh viên
+		System.out.println("\n=== SINH VIÊN CÓ ĐIỂM >= 8.0 ===");
+		List<SinhVien> svGioi = qlsv.locSinhVienTheoDiem(8.0);
+		if (!svGioi.isEmpty()) {
+			svGioi.forEach(System.out::println);
+		} else {
+			System.out.println("Không có sinh viên nào đạt điểm >= 8.0");
+		}
 
 	}
 
