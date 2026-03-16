@@ -23,8 +23,19 @@ public class ArrayListCoBan {
 		System.out.println("Danh sách sau khi thêm: ");
 
 		// 3. Lấy kích thước
-		System.out.println("\n--- Kích Thước ---");
+		System.out.println("\n--- KÍCH THƯỚC ---");
 		System.out.println("Số phần tử : " + danhSachTen.size());
+
+		// 4. Truy cập phần tử
+		System.out.println("\n--- TRUY CẬP PHẦN TỬ ---");
+		System.out.println("Phần tử thứ 0: " + danhSachTen.get(0));
+		System.out.println("Phần tử thứ 2: " + danhSachTen.get(2));
+
+		// 5. Cập nhật phần tử
+		System.out.println("\n--- CẬP NHẬT PHẦN TỬ ---");
+		System.out.println("Trước khi cập nhật: " + danhSachTen.get(1));
+		danhSachTen.set(1, "Trần Thị B (Đã đổi tên)");
+		System.out.println("Sau khi đổi tên : " + danhSachTen.get(1));
 
 	}
 
