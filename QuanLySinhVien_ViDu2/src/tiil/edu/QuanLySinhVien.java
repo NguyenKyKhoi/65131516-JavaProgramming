@@ -91,7 +91,30 @@ public class QuanLySinhVien {
 
 		for (int i = 0; i < danhSachSV.size(); i++) {
 			SinhVien sv = danhSachSV.get(i);
-			System.out.println(String.format(i + 1, sv.getMaSV(), sv.getHoTen(), sv.getDiemTB()));
+			System.out.println(
+					String.format("%-5d %-15s %-20s %-10.2f", i + 1, sv.getMaSV(), sv.getHoTen(), sv.getDiemTB()));
+		}
+	}
+
+	// Xóa sinh viên theo mã - remove();
+	public boolean xoaSinhVien(String maSV) {
+		for (int i = 0; i < danhSachSV.size(); i++) {
+			if (danhSachSV.get(i).getMaSV().equals(maSV)) {
+				SinhVien svBiXoa = danhSachSV.remove(i);
+				System.out.println("Đã xóa: " + svBiXoa.getHoTen());
+				return true;
+			}
+		}
+		System.out.println("Không tìm thấy sinh viên với mã: " + maSV);
+		return false;
+	}
+
+	// Sử dụng subList()
+	public void hienThiHaiSinhVienDauTien() {
+		if (danhSachSV.size() >= 2) {
+			List<SinhVien> subList = danhSachSV.subList(0, 2);
+			System.out.println("\nHai sinh viên đầu tiên:");
+			subList.forEach(System.out::println);
 		}
 	}
 }
