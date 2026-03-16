@@ -83,6 +83,11 @@ public class ArrayListCoBan {
 			System.out.println(ten);
 		}
 
+		// 11. Xóa toàn bộ - clear()
+		System.out.println("\n--- XÓA TOÀN BỘ ---");
+		danhSachTen.clear();
+		System.out.println("Sau khi clear, kích thước: " + danhSachTen.size());
+		System.out.println("Danh sách có rỗng không? " + danhSachTen.isEmpty());
 	}
 
 }
