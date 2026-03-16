@@ -42,6 +42,19 @@ public class MainQuanLySinhVien {
 			System.out.println("Không có sinh viên nào đạt điểm >= 8.0");
 		}
 
+		// Sắp xếp
+		System.out.println("\n=== DANH SÁCH SAU KHI SẮP XẾP (GIẢM DẦN THEO ĐIỂM) ===");
+		qlsv.sapXepTheoDiem();
+		qlsv.hienThiDanhSach();
+
+		// Xóa sinh viên
+		System.out.println("\n=== XÓA SINH VIÊN ===");
+		qlsv.xoaSinhVien("SV002");
+		qlsv.hienThiDanhSach();
+
+		// Sử dụng subList
+		qlsv.hienThiHaiSinhVienDauTien();
+
 	}
 
 }
