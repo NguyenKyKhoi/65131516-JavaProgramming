@@ -55,6 +55,10 @@ public class ArrayListCoBan {
 		System.out.println("Xóa 'Lê Văn C' thành công? " + removedByObject);
 
 		System.out.println("Sau khi xóa: " + danhSachTen);
+
+		// 8. Kiểm tra rỗng - isEmpty()
+		System.out.println("\n--- KIỂM TRA RỖNG ---");
+		System.out.println("Danh sách có rỗng không : " + danhSachTen.isEmpty());
 	}
 
 }
