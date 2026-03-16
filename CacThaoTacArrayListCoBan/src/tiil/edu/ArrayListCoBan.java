@@ -59,6 +59,30 @@ public class ArrayListCoBan {
 		// 8. Kiểm tra rỗng - isEmpty()
 		System.out.println("\n--- KIỂM TRA RỖNG ---");
 		System.out.println("Danh sách có rỗng không : " + danhSachTen.isEmpty());
+
+		// 9. Duyệt danh sách
+		System.out.println("\n--- DUYỆT DANH SÁCH ---");
+		System.out.println("\n--- Duyệt thông thường ---");
+		for (int i = 0; i < danhSachTen.size(); i++) {
+			System.out.println("Vị trí " + i + ": " + danhSachTen.get(i));
+		}
+
+		System.out.println("\nCách 2 dùng for each");
+		for (String x : danhSachTen) {
+			System.out.println("Tên : " + x);
+		}
+
+		System.out.println("\nCách 3: ForEach với Lambda (Java 8+)");
+		danhSachTen.forEach(ten -> System.out.println("Tên: " + ten));
+
+		// 10. Chuyển đổi sang mảng - toArray()
+		System.out.println("\n--- CHUYỂN ĐỔI SANG MẢNG ---");
+		String[] mangTen = danhSachTen.toArray(new String[0]);
+		System.out.println("Mảng chuyển đổi:");
+		for (String ten : mangTen) {
+			System.out.println(ten);
+		}
+
 	}
 
 }
