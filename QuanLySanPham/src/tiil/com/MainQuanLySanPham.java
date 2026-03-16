@@ -9,9 +9,9 @@ public class MainQuanLySanPham {
 		QuanLySanPham ql = new QuanLySanPham();
 		int luaChon = 0;
 
-		ql.themSP(new SanPham("SP01", "Coca Cola", "15000", "50"));
-		ql.themSP(new SanPham("SP02", "Banh Mi", "20000", "5"));
-		ql.themSP(new SanPham("SP03", "Sua Tuoi", "12000", "8"));
+		ql.themSP(new SanPham("SP01", "Coca Cola", 15000d, 50));
+		ql.themSP(new SanPham("SP02", "Banh Mi", 20000d, 5));
+		ql.themSP(new SanPham("SP03", "Sua Tuoi", 12000d, 8));
 
 		do {
 			System.out.println("\n---------- MENU QUẢN LÝ SẢN PHẨM ----------");
@@ -26,7 +26,7 @@ public class MainQuanLySanPham {
 			System.out.println("0. Thoát chương trình");
 			System.out.print("Mời bạn chọn (0-8): ");
 			luaChon = sc.nextInt();
-			sc.nextLine(); // Đọc bỏ dòng trống sau khi nhập số
+			sc.nextLine();
 
 			switch (luaChon) {
 			case 1:
@@ -73,19 +73,13 @@ public class MainQuanLySanPham {
 				break;
 
 			case 8:
-				// Vì QuanLySanPham chưa có hàm in hết, tôi gọi tạm ở đây để bạn test
 				System.out.println("Danh sách hiện tại:");
-				// Bạn có thể thêm phương thức xuatTatCa vào QuanLySanPham
-				// Ở đây tôi dùng tạm loop để demo
-				ql.timTheoTen(""); // Một mẹo nhỏ nếu hàm tìm kiếm của bạn hỗ trợ chuỗi rỗng
+				ql.timTheoTen("");
 				break;
-
-			case 0:
-				System.out.println("Tạm biệt!");
-				break;
-
-			default:
-				System.out.println("Lựa chọn không hợp lệ!");
+			}
+			if (luaChon != 0) {
+				System.out.println("\n--- Nhấn phím Enter để quay lại Menu ---");
+				sc.nextLine();
 			}
 		} while (luaChon != 0);
 

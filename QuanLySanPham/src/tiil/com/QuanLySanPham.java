@@ -31,13 +31,16 @@ public class QuanLySanPham {
 
 	// tìm sản phẩm theo tên
 	public void timTheoTen(String tenCanTim) {
+		boolean timThay = false;
 		for (SanPham sp : danhSachSP) {
-			if (sp.getTenSP().equalsIgnoreCase(tenCanTim)) {
-				System.out.println("Kết quả tìm kiếm : " + sp.toString());
-				return;
+			if (sp.getTenSP().toLowerCase().contains(tenCanTim.toLowerCase())) {
+				System.out.println("Kết quả: " + sp.toString());
+				timThay = true;
 			}
 		}
-		System.out.println("Rất tiếc, không tìm thấy sản phẩm: " + tenCanTim);
+		if (!timThay) {
+			System.out.println("Rất tiếc, không tìm thấy sản phẩm: " + tenCanTim);
+		}
 	}
 
 	// sắp xếp sản phẩm theo giá (giảm dần)
@@ -81,6 +84,19 @@ public class QuanLySanPham {
 			if (x.getSoLuong() < 10) {
 				System.out.println(x.getTenSP());
 			}
+		}
+	}
+
+	// hiển thị tất cả các sản phẩm trong kho
+	public void hienThiTatCaSanPham() {
+		if (danhSachSP.isEmpty()) {
+			System.out.println("Danh sách sản phẩm đang trống!");
+		} else {
+			System.out.println("---------- DANH SÁCH TẤT CẢ SẢN PHẨM ----------");
+			for (SanPham sp : danhSachSP) {
+				System.out.println(sp.toString());
+			}
+			System.out.println("-----------------------------------------------");
 		}
 	}
 }
