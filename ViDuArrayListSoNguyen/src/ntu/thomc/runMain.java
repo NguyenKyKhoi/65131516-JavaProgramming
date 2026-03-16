@@ -33,8 +33,13 @@ public class runMain {
 				sum++;
 			}
 		}
-		System.out.println("Số phần tử chia hết cho 2 là : " + sum);
+		System.out.println("\nSố phần tử chia hết cho 2 là : " + sum);
 
+		Integer sumAll = 0;
+		for (Integer x : dsSoNguyen) {
+			sumAll += x;
+		}
+		System.out.println("tổng của các phần tử trong mảng : " + sumAll + " ");
 	}
 
 }
