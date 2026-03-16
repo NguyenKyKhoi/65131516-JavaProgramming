@@ -17,6 +17,15 @@ public class ArrayListCoBan {
 		danhSachTen.add("Trần Thị B");
 		danhSachTen.add("Lê Văn C");
 
+		// Thêm tại vị trí cụ thể - add(index, element)
+		danhSachTen.add(1, "Phạm Thị D");
+
+		System.out.println("Danh sách sau khi thêm: ");
+
+		// 3. Lấy kích thước
+		System.out.println("\n--- Kích Thước ---");
+		System.out.println("Số phần tử : " + danhSachTen.size());
+
 	}
 
 }
