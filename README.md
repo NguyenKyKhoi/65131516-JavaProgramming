@@ -2,7 +2,7 @@
 <h3 align="center">Sinh viên Công Nghệ Thông Tin</h3>
 
 <p align="center">
-  Tôi là một người học tập nghiêm túc, đam mê kiến trúc phần mềm và luôn hướng tới việc nắm vững bản chất của các ngôn ngữ lập trình. Mục tiêu dài hạn của tôi là trở thành một giáo viên để truyền đạt lại những kiến thức cốt lõi này.
+  Tôi là một người học tập nghiêm túc, đam mê kiến trúc phần mềm và luôn hướng tới việc nắm vững bản chất của các ngôn ngữ lập trình. Mục tiêu dài hạn của tôi là trở thành một sinh viên tốt để có thể truyền đạt lại những kiến thức cốt lõi này.
 </p>
 
 ---
@@ -23,7 +23,7 @@ Bên cạnh Java, tôi cũng đang củng cố các mảng kiến thức bổ tr
 
 ### 📫 Liên hệ & Trao đổi
 Tôi luôn sẵn sàng trao đổi nghiêm túc về các chủ đề như thiết kế cơ sở dữ liệu, cấu trúc dữ liệu hoặc các bài toán lập trình bằng Java.
-* **Email:** [Email của bạn]
+* **Email:** nguyenkykhoi2603@gmail.com
 * **Ngoại ngữ:** Đang tích cực luyện thi TOEIC để nâng cao khả năng tiếp cận tài liệu chuyên ngành.
 
 ---
