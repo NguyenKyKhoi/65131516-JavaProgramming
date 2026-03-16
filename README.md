@@ -28,5 +28,5 @@ Tôi luôn sẵn sàng trao đổi nghiêm túc về các chủ đề như thi�
 
 ---
 <p align="center">
-  <i>"Học tập là một quá trình nghiêm túc và kỷ luật."</i>
+  <i>"Hành trình cuộc đời này vốn dĩ nó đẹp là do ta tự viết nên"</i>
 </p>
