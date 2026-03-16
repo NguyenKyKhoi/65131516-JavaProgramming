@@ -22,6 +22,19 @@ public class runMain {
 			System.out.print(temp + " ");
 		}
 
+		System.out.println("\n");
+		for (Integer x : dsSoNguyen) {
+			System.out.print(x + " ");
+		}
+
+		Integer sum = 0;
+		for (Integer x : dsSoNguyen) {
+			if (x % 2 == 0) {
+				sum++;
+			}
+		}
+		System.out.println("Số phần tử chia hết cho 2 là : " + sum);
+
 	}
 
 }
