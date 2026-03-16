@@ -37,6 +37,24 @@ public class ArrayListCoBan {
 		danhSachTen.set(1, "Trần Thị B (Đã đổi tên)");
 		System.out.println("Sau khi đổi tên : " + danhSachTen.get(1));
 
+		// 6. Tìm kiếm - contains(), indexOf()
+		System.out.println("\n--- TÌM KIẾM ---");
+		System.out.println("Có 'Lê Văn C' không? " + danhSachTen.contains("Lê Văn C"));
+		System.out.println("Vị trí của 'Lê Văn C': " + danhSachTen.indexOf("Lê Văn C"));
+		System.out.println("Vị trí của 'Không tồn tại': " + danhSachTen.indexOf("Không tồn tại"));
+		// 7. Xóa phần tử - remove();
+		System.out.println("\n--- XÓA PHẦN TỬ ---");
+		System.out.println("Trước khi xóa: " + danhSachTen);
+
+		// Xóa theo chỉ số
+		String removedByIndex = danhSachTen.remove(0);
+		System.out.println("Đã xóa (theo index 0): " + removedByIndex);
+
+		// Xóa theo đối tượng
+		boolean removedByObject = danhSachTen.remove("Lê Văn C");
+		System.out.println("Xóa 'Lê Văn C' thành công? " + removedByObject);
+
+		System.out.println("Sau khi xóa: " + danhSachTen);
 	}
 
 }
