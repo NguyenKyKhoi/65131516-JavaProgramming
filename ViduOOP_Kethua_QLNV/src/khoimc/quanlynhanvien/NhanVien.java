@@ -40,4 +40,12 @@ public class NhanVien {
 		System.out.println("Luong co ban: " + luongCoBan);
 	}
 
+	public String getMaNV() {
+		return maNV;
+	}
+
+	public String getHoTen() {
+		return hoTen;
+	}
+
 }

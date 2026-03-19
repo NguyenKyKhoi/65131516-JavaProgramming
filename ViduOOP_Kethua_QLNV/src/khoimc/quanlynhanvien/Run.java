@@ -9,6 +9,9 @@ public class Run {
 
 		System.out.println(nv1.toString());
 
+		NhanVienVanPhong nvVanPhong1 = new NhanVienVanPhong("002", "Tran Thi Tuoi Tha", 2300000, 3, 20000);
+		System.out.println(nvVanPhong1.toString());
+//		nvVanPhong1.hienThiThongTin();
 	}
 
 }
