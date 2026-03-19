@@ -48,4 +48,8 @@ public class NhanVien {
 		return hoTen;
 	}
 
+	public double getLuongCoBan() {
+		return luongCoBan;
+	}
+
 }

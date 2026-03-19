@@ -6,7 +6,6 @@ public class Run {
 		// TODO Auto-generated method stub
 		NhanVien nv1 = new NhanVien("001", "Mai Cuong Tho", 2300000);
 		// nv1.hienThiThongTin();
-
 		System.out.println(nv1.toString());
 
 		NhanVienVanPhong nvVanPhong1 = new NhanVienVanPhong("002", "Tran Thi Tuoi Tha", 2300000, 3, 20000);

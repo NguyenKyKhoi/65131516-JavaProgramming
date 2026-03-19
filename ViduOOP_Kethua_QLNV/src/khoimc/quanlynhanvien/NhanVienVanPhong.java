@@ -13,7 +13,7 @@ public class NhanVienVanPhong extends NhanVien {
 
 	@Override
 	public double tinhLuong() {
-		return super.getluongCoBan + soGioLamThem * luongThemMoiGio;
+		return super.getLuongCoBan() + soGioLamThem * luongThemMoiGio;
 	}
 
 	@Override
@@ -26,7 +26,12 @@ public class NhanVienVanPhong extends NhanVien {
 
 	@Override
 	public String toString() {
-		String chuoiXuat = super.
+		String chuoiXuat = super.toString();
+		chuoiXuat = chuoiXuat + "\nSo gio lam them : " + soGioLamThem;
+		chuoiXuat = chuoiXuat + "\nLuong cho moi gio lam them : " + luongThemMoiGio;
+		chuoiXuat = chuoiXuat + "\nLuong duoc nhan : " + tinhLuong();
+		return chuoiXuat;
+//		return "NhanVien [maNV="+ maNV +", hoTen=" + hoTen + ", LuongCoBan=" + luongCoBan +
 	}
 
 	// cac phuong thuc khac
