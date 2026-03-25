@@ -13,6 +13,10 @@ public class XeDien extends XeMay {
 		this.congSuatDongCo = congSuatDongCo;
 	}
 
+	public XeDien() {
+
+	}
+
 	public XeDien(String bienSo, int namSanXuat, double giaBan, double congSuatDongCo) {
 		super(bienSo, namSanXuat, giaBan);
 		this.congSuatDongCo = congSuatDongCo;
@@ -23,12 +27,16 @@ public class XeDien extends XeMay {
 		super.Nhap(sc);
 		System.out.println("Công Suất Động Cơ : ");
 		congSuatDongCo = sc.nextDouble();
+		sc.nextLine();
 	}
 
 	@Override
 	public String toString() {
-		super.toString();
-		String s = "Công Suất Động Cơ : " + congSuatDongCo;
-		return s;
+		return super.toString() + "Công Suất Động Cơ : " + congSuatDongCo;
+	}
+
+	@Override
+	public double thoiGianSuDung(int namSanXuat) {
+		return super.thoiGianSuDung(namSanXuat);
 	}
 }

@@ -44,7 +44,7 @@ public class XeMay {
 	public void Nhap(Scanner sc) {
 		System.out.println("--- Nhập Thông Tin Xe ---");
 		System.out.print("Biển Số : ");
-		bienSo = sc.toString();
+		bienSo = sc.nextLine();
 		System.out.println("Năm Sản Xuất : ");
 		namSanXuat = sc.nextInt();
 		System.out.println("Giá Bán : ");
