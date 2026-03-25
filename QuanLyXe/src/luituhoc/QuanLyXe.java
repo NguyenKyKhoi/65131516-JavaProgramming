@@ -22,6 +22,8 @@ public class QuanLyXe {
 
 		for (var xe : dsXeDien) {
 			System.out.println(xe.toString());
+			System.out.println("Thời hạn sử dụng : " + xe.thoiGianSuDung(xe.getNamSanXuat()));
+
 		}
 
 	}
