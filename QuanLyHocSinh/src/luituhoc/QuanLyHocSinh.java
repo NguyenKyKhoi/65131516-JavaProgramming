@@ -81,6 +81,8 @@ public class QuanLyHocSinh {
 //			System.out.println(dsHocSinh.get(i).toString());
 //		}
 
+		System.out.println("====================");
+		System.out.println("Xóa học sinh tên Hoa");
 		for (int i = 0; i < n; i++) {
 			HocSinh hs = dsHocSinh.get(i);
 			if (hs.getTenHS() == "Hoa") {
@@ -89,10 +91,10 @@ public class QuanLyHocSinh {
 			}
 		}
 
-		System.out.println("======================");
-		System.out.println("Xóa học sinh theo tên : ");
-		System.out.print("Nhập tên cần xóa: ");
-		String tenCanXoa = sc.nextLine();
+//		System.out.println("======================");
+//		System.out.println("Xóa học sinh theo tên : ");
+//		System.out.print("Nhập tên cần xóa: ");
+//		String tenCanXoa = sc.nextLine();
 
 //		int flag = 0;
 //		for (int i = dsHocSinh.size() - 1; i >= 0; i--) {
