@@ -54,7 +54,28 @@ public class QuanLyHocSinh {
 
 		for (int i = 0; i < dsHocSinh.size(); i++) {
 			System.out.println("Học Sinh Thứ " + (i + 1));
+			System.out.print("Tên Học Sinh : " + dsHocSinh.get(i).getTenHS() + "\n");
+			System.out.println("Lớp Học Sinh: " + dsHocSinh.get(i).getLopHS());
+			System.out.print("Tuổi Học Sinh : " + dsHocSinh.get(i).getTuoiHS() + "\n");
+			System.out.println("===============================");
+		}
 
+		System.out.println("===============================");
+		System.out.println("Thêm Học Sinh Mới: ");
+
+		System.out.print("Tên Học Sinh: ");
+		String tenhs = sc.nextLine();
+		System.out.print("Lớp Học Sinh: ");
+		String lophs = sc.nextLine();
+		System.out.print("Tuổi Học Sinh: ");
+		int tuoihs = sc.nextInt();
+		sc.nextLine();
+
+		HocSinh temp = new HocSinh(tenhs, tuoihs, lophs);
+		dsHocSinh.add(temp);
+
+		for (var hs : dsHocSinh) {
+			System.out.println(hs.toString());
 		}
 
 		sc.close();
