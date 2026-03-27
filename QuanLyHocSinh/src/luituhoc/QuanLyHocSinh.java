@@ -1,5 +1,6 @@
 package luituhoc;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class QuanLyHocSinh {
@@ -26,6 +27,37 @@ public class QuanLyHocSinh {
 		System.out.println(hs1);
 		System.out.println(hs2);
 
+		System.out.print("Nhập số lượng học sinh: ");
+		int n = sc.nextInt();
+		sc.nextLine();
+		ArrayList<HocSinh> dsHocSinh = new ArrayList<>(n);
+
+		for (int i = 0; i < n; i++) {
+			System.out.print("Nhập học sinh thứ " + (i + 1) + "\n");
+			System.out.print("Tên Học Sinh: ");
+			String tenhs = sc.nextLine();
+			System.out.print("Lớp Học Sinh: ");
+			String lophs = sc.nextLine();
+			System.out.print("Tuổi Học Sinh: ");
+			int tuoihs = sc.nextInt();
+			sc.nextLine();
+
+			HocSinh temp = new HocSinh(tenhs, tuoihs, lophs);
+			dsHocSinh.add(temp);
+		}
+
+		for (var hs : dsHocSinh) {
+			System.out.println(hs.toString());
+		}
+
+		System.out.println("=================================");
+
+		for (int i = 0; i < dsHocSinh.size(); i++) {
+			System.out.println("Học Sinh Thứ " + (i + 1));
+
+		}
+
+		sc.close();
 	}
 
 }
