@@ -61,7 +61,7 @@ public class SanPham {
 		System.out.print("Tên sản phẩm: " + tenSp);
 		System.out.print("Đơn giá: " + donGia);
 		System.out.print("Giảm giá: " + giamGia);
-		System.out.println("Thuế thu nhập: " + getThueNhapKhau(donGia));
+		System.out.println("Thuế nhập khẩu: " + getThueNhapKhau(donGia));
 
 	}
 
