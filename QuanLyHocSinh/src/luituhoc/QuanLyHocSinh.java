@@ -60,7 +60,6 @@ public class QuanLyHocSinh {
 			System.out.println("===============================");
 		}
 
-		System.out.println("===============================");
 		System.out.println("Thêm Học Sinh Mới: ");
 
 		System.out.print("Tên Học Sinh: ");
@@ -73,6 +72,36 @@ public class QuanLyHocSinh {
 
 		HocSinh temp = new HocSinh(tenhs, tuoihs, lophs);
 		dsHocSinh.add(temp);
+
+		for (var hs : dsHocSinh) {
+			System.out.println(hs.toString());
+		}
+
+		System.out.println("======================");
+		System.out.println("Xóa học sinh theo tên : ");
+		System.out.print("Nhập tên cần xóa: ");
+		String tenCanXoa = sc.nextLine();
+//		int flag = 0;
+//		for (int i = dsHocSinh.size() - 1; i >= 0; i--) {
+//			if (dsHocSinh.get(i).getTenHS().equalsIgnoreCase(tenCanXoa)) {
+//				dsHocSinh.remove(i);
+//				System.out.println("Đã xóa đối tượng ở vị trí số " + i);
+//				flag = 1;
+//			}
+//		}
+//		
+//		if(flag == 0) {
+//			System.out.println("Không tìm thấy đối tượng như vậy");
+//		}
+
+		// xóa theo tên từng ký tự
+
+		for (int i = dsHocSinh.size() - 1; i >= 0; i--) {
+			if (dsHocSinh.get(i).getTenHS().endsWith(tenCanXoa)) {
+				dsHocSinh.remove(i);
+				System.out.println("Đã xóa đối tượng ở vị trí số " + i);
+			}
+		}
 
 		for (var hs : dsHocSinh) {
 			System.out.println(hs.toString());
