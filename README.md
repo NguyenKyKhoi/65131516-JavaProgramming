@@ -1,8 +1,8 @@
 <h1>Tổng quan kho lưu trữ bài tập của tôi !!!</h1>
 
-### Bài tập 13: Ôn tập thi (OnTapThi)
+### AbstractClass
 
-#### [Chi tiết bài tập](./OnTapThi)
+#### [Chi tiết bài tập](./AbstractClass)
 
 <p align="center">
   <table>
