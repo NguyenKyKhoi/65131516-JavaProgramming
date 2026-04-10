@@ -11,7 +11,7 @@ public class QuanLyXe {
 		int n = sc.nextInt();
 		sc.nextLine();
 
-		ArrayList<XeDien> dsXeDien = new ArrayList<>(5);
+		ArrayList<XeDien> dsXeDien = new ArrayList<>(n);
 
 		for (int i = 0; i < n; i++) {
 			System.out.println("Nhập thông tin xe " + (i + 1));
@@ -22,7 +22,7 @@ public class QuanLyXe {
 
 		for (var xe : dsXeDien) {
 			System.out.println(xe.toString());
-			System.out.println("Thời hạn sử dụng : " + xe.thoiGianSuDung(xe.getNamSanXuat()));
+			System.out.println("Thời hạn sử dụng : " + xe.thoiGianSuDung());
 
 		}
 

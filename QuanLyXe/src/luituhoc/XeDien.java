@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class XeDien extends XeMay {
 	private double congSuatDongCo;
+	final int thoiGian = 10;
 
 	public double getCongSuatDongCo() {
 		return congSuatDongCo;
@@ -36,7 +37,10 @@ public class XeDien extends XeMay {
 	}
 
 	@Override
-	public double thoiGianSuDung(int namSanXuat) {
-		return super.thoiGianSuDung(namSanXuat);
+	public double thoiGianSuDung() {
+		int namHienTai = 2026;
+		int conlai = thoiGian - (namHienTai - getNamSanXuat());
+
+		return conlai > 0 ? conlai : 0;
 	}
 }

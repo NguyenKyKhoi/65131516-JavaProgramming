@@ -3,10 +3,10 @@ package luituhoc;
 import java.util.Scanner;
 
 public class XeMay {
+
 	private String bienSo;
 	private int namSanXuat;
 	private double giaBan;
-	final int thoiGian = 10;
 
 	public String getBienSo() {
 		return bienSo;
@@ -56,8 +56,14 @@ public class XeMay {
 		return s;
 	}
 
-	public double thoiGianSuDung(int namSanXuat) {
-		return thoiGian - (2026 - namSanXuat);
+	public double thoiGianSuDung() {
+		int namHienTai = 2026;
+		int tuoiXe = namHienTai - getNamSanXuat();
+		int hanDinhMuc = 20;
+
+		int conlai = hanDinhMuc - tuoiXe;
+
+		return conlai > 0 ? conlai : 0;
 	}
 
 }
