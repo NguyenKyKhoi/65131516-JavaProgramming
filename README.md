@@ -1,32 +1,24 @@
-<h1 align="center">Xin chào, tôi là Nguyễn Kỳ Khôi</h1>
-<h3 align="center">Sinh viên Công Nghệ Thông Tin</h3>
+---
 
-<p align="center">
-  Tôi là một người học tập nghiêm túc, đam mê kiến trúc phần mềm và luôn hướng tới việc nắm vững bản chất của các ngôn ngữ lập trình. Mục tiêu dài hạn của tôi là trở thành một sinh viên tốt để có thể truyền đạt lại những kiến thức cốt lõi này.
-</p>
+### 📚 Danh sách Bài tập & Đồ án Java
+Dưới đây là các bài tập tiêu biểu giúp tôi rèn luyện tư duy lập trình hướng đối tượng (OOP) và cấu trúc dữ liệu.
+
+| Tên Bài Tập | Hình Ảnh Minh Họa | Kiến Thức Áp Dụng | Liên Kết |
+| :--- | :---: | :--- | :---: |
+| **Hệ Thống Đặt Hàng** | ![Demo](https://via.placeholder.com/150x80?text=Order+System) | OOP, Xử lý logic nghiệp vụ | [Xem Code](./HeThongDatHang) |
+| **Quản Lý Sinh Viên** | ![Demo](https://via.placeholder.com/150x80?text=Student+Mgmt) | `ArrayList`, `Interface`, `Getter/Setter` | [Xem Code](./QuanLySinhVien_ViDu2) |
+| **Quản Lý Xe** | ![Demo](https://via.placeholder.com/150x80?text=Vehicle+Mgmt) | Tính kế thừa (Inheritance), Đa hình | [Xem Code](./QuanLyXe) |
+| **Bài Tập Hình Học** | ![Demo](https://via.placeholder.com/150x80?text=Geometry) | Class & Object, Constructor | [Xem Code](./HinhChuNhat_TinhToan) |
+| **Quản Lý Sản Phẩm** | ![Demo](https://via.placeholder.com/150x80?text=Product+Mgmt) | Thao tác mảng, Tìm kiếm & Sắp xếp | [Xem Code](./QuanLySanPham) |
 
 ---
 
-### ☕ Hành trình với Java
-Hiện tại, tôi đang dành sự tập trung lớn nhất cho hệ sinh thái Java. Việc học của tôi không chỉ dừng ở cú pháp, mà đi sâu vào tư duy hướng đối tượng (OOP) và cách ứng dụng vào các hệ thống thực tế.
+### 🛠️ Chi tiết Dự án Trọng tâm
+#### [Teacher Management Information System]
+> Đây là dự án tôi đang dành nhiều tâm huyết để áp dụng kiến thức thiết kế hệ thống.
 
-* **Đang nghiên cứu sâu:** Lập trình hướng đối tượng (OOP), Cấu trúc dữ liệu & Giải thuật bằng Java.
-* **Dự án tâm huyết:** Đang thiết kế và phát triển **Hệ thống Thông tin Quản lý Giáo viên (Teacher Management Information System)**. Dự án này giúp tôi ứng dụng trực tiếp Java vào việc giải quyết bài toán quản lý dữ liệu, phân tích biểu đồ luồng dữ liệu (DFD) và thiết kế cơ sở dữ liệu.
-* **Mục tiêu tiếp theo:** Nắm vững các framework của Java để xây dựng backend vững chắc và tối ưu hóa truy vấn SQL cho hệ thống quản lý.
-
-### 💻 Nền tảng Kỹ thuật
-Bên cạnh Java, tôi cũng đang củng cố các mảng kiến thức bổ trợ để xây dựng một nền tảng Khoa học Máy tính vững chắc:
-* **Ngôn ngữ:** Java, C, C++, C#
-* **Cơ sở dữ liệu:** SQL (Thiết kế Database & Tối ưu hóa truy vấn)
-* **Toán học & Logic:** Toán rời rạc (Discrete Mathematics)
-* **Web Cơ bản:** HTML, CSS
-
-### 📫 Liên hệ & Trao đổi
-Tôi luôn sẵn sàng trao đổi nghiêm túc về các chủ đề như thiết kế cơ sở dữ liệu, cấu trúc dữ liệu hoặc các bài toán lập trình bằng Java.
-* **Email:** nguyenkykhoi2603@gmail.com
-* **Ngoại ngữ:** Đang tích cực luyện thi TOEIC để nâng cao khả năng tiếp cận tài liệu chuyên ngành.
+*   **Trạng thái:** 🚧 Đang phát triển.
+*   **Kỹ năng áp dụng:** Phân tích DFD, thiết kế ERD, Java kết nối SQL.
+*   **Mục tiêu:** Quản lý toàn diện hồ sơ giảng viên và lịch giảng dạy tại NTU.
 
 ---
-<p align="center">
-  <i>"Hành trình cuộc đời này vốn dĩ nó đẹp là do ta tự viết nên"</i>
-</p>
