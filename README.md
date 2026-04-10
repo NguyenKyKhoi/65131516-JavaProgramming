@@ -1,6 +1,4 @@
-Đây là kho lưu trữ bài tập khi tôi làm bài tập lớn và nhỏ, đây là lưu trữ tham khảo, không phải dự án lâu dài hoặc có thể sử dụng.
-
-Quá trình thực hiện bài tập
+<h1>Tổng quan kho lưu trữ bài tập của tôi !!!</h1>
 
 ### Bài tập 13: Ôn tập thi (OnTapThi)
 
