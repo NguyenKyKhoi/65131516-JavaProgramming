@@ -26,13 +26,13 @@
     <tr>
       <td>
         <img src="https://github.com/user-attachments/assets/48355477-40a7-4a24-a2a0-98c47b2bf555"
-alt="Màn hình Thông tin project" height="240">
+alt="Màn hình Thông tin project" height="230">
         <img src="https://github.com/user-attachments/assets/fb6805e0-daf3-48bb-afac-1532da2513dd"
-alt="Màn hình Thông tin project" height="240">
+alt="Màn hình Thông tin project" height="230">
         <img src="https://github.com/user-attachments/assets/b184a1b3-7b08-400b-9e9e-661e4ea89b35"
-alt="Màn hình Thông tin project" height="240">
+alt="Màn hình Thông tin project" height="230">
         <img src="https://github.com/user-attachments/assets/1bc1fb1e-3617-4d73-8854-6c16d46c76bd"
-alt="Màn hình Thông tin project" height="240">
+alt="Màn hình Thông tin project" height="230">
       </td>
     </tr>
   </table>
