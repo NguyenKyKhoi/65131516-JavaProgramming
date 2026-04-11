@@ -57,6 +57,23 @@ alt="Màn hình Thông tin project" height="230">
   </table>
 </p>
 
+### Quản Lý Sản Phẩm
 
+### [Chi tiết bài tập](./QuanLySanPham).
+
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/6f67fab3-4efb-41e9-8521-e70466195ea6"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/291f6878-01cb-43be-811e-b5a24b3be5da"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/6769f411-a04c-45cb-be74-f867c68e4289" 
+alt="Màn hình Thông tin project" height="230">
+      </td>
+    </tr>
+  </table>
+</p>
 
 
