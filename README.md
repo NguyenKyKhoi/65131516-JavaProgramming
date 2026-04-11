@@ -38,4 +38,25 @@ alt="Màn hình Thông tin project" height="230">
   </table>
 </p>
 
+### Hệ Thống Đặt Hàng
+
+### [Chi tiết bài tập](./HeThongDatHang).
+
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/01a4d298-6a8a-494a-82bd-5de4fd716f02"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/52f98fca-af70-42c1-b6ec-3482202374a0"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/a2872582-8dd8-4c8c-a860-5b0d3f58b956"
+alt="Màn hình Thông tin project" height="230">
+      </td>
+    </tr>
+  </table>
+</p>
+
+
+
 
