@@ -1,32 +1,131 @@
-<h1 align="center">Xin chào, tôi là Nguyễn Kỳ Khôi</h1>
-<h3 align="center">Sinh viên Công Nghệ Thông Tin</h3>
+<h1>Tổng quan kho lưu trữ bài tập JAVA của tôi !!!</h1>
+
+### AbstractClass
+
+#### [Chi tiết bài tập](./AbstractClass)
 
 <p align="center">
-  Tôi là một người học tập nghiêm túc, đam mê kiến trúc phần mềm và luôn hướng tới việc nắm vững bản chất của các ngôn ngữ lập trình. Mục tiêu dài hạn của tôi là trở thành một sinh viên tốt để có thể truyền đạt lại những kiến thức cốt lõi này.
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/970d4c3b-6d98-4535-8ae7-654299b9cde9" alt="Màn hình Thông tin project" height="250">
+        <img src="https://github.com/user-attachments/assets/ebe06d7a-fbda-406b-9309-12bfded767de"alt="Màn hình Thông tin project" height="250">
+        <img src="https://github.com/user-attachments/assets/36f5e574-f170-4f2a-a43a-8a75cfa0ef8c"alt="Màn hình Thông tin project" height="250">
+        <img src="https://github.com/user-attachments/assets/4d6dced0-2fc6-452b-a9a5-bbd12c30f24d"alt="Màn hình Thông tin project" height="250">
+      </td>
+    </tr>
+  </table>
 </p>
 
----
+### Interface
 
-### ☕ Hành trình với Java
-Hiện tại, tôi đang dành sự tập trung lớn nhất cho hệ sinh thái Java. Việc học của tôi không chỉ dừng ở cú pháp, mà đi sâu vào tư duy hướng đối tượng (OOP) và cách ứng dụng vào các hệ thống thực tế.
+### [Chi tiết bài tập](./Interface).
 
-* **Đang nghiên cứu sâu:** Lập trình hướng đối tượng (OOP), Cấu trúc dữ liệu & Giải thuật bằng Java.
-* **Dự án tâm huyết:** Đang thiết kế và phát triển **Hệ thống Thông tin Quản lý Giáo viên (Teacher Management Information System)**. Dự án này giúp tôi ứng dụng trực tiếp Java vào việc giải quyết bài toán quản lý dữ liệu, phân tích biểu đồ luồng dữ liệu (DFD) và thiết kế cơ sở dữ liệu.
-* **Mục tiêu tiếp theo:** Nắm vững các framework của Java để xây dựng backend vững chắc và tối ưu hóa truy vấn SQL cho hệ thống quản lý.
-
-### 💻 Nền tảng Kỹ thuật
-Bên cạnh Java, tôi cũng đang củng cố các mảng kiến thức bổ trợ để xây dựng một nền tảng Khoa học Máy tính vững chắc:
-* **Ngôn ngữ:** Java, C, C++, C#
-* **Cơ sở dữ liệu:** SQL (Thiết kế Database & Tối ưu hóa truy vấn)
-* **Toán học & Logic:** Toán rời rạc (Discrete Mathematics)
-* **Web Cơ bản:** HTML, CSS
-
-### 📫 Liên hệ & Trao đổi
-Tôi luôn sẵn sàng trao đổi nghiêm túc về các chủ đề như thiết kế cơ sở dữ liệu, cấu trúc dữ liệu hoặc các bài toán lập trình bằng Java.
-* **Email:** nguyenkykhoi2603@gmail.com
-* **Ngoại ngữ:** Đang tích cực luyện thi TOEIC để nâng cao khả năng tiếp cận tài liệu chuyên ngành.
-
----
 <p align="center">
-  <i>"Hành trình cuộc đời này vốn dĩ nó đẹp là do ta tự viết nên"</i>
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/8fea77dd-897f-437e-9873-3dabacc6566b"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/f5447f15-fa5e-4045-9997-703ea77dc041"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/8bdb479b-2d14-4138-9f50-3ccb3999efeb"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/8c3dbe73-cee4-48a4-a39f-47a2c3811c1f"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/6b07ab5d-4fa3-4fb4-8867-4e9ce7e16342"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/8f365a8f-fedc-473e-80db-31273270560b"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/7a1501c1-6a57-4441-b486-8e37e7f70d6e"
+alt="Màn hình Thông tin project" height="230">
+      </td>
+    </tr>
+  </table>
 </p>
+
+### Comparable And Comparator
+
+### [Chi tiết bài tập](./ComparableAndComparator)
+
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/48355477-40a7-4a24-a2a0-98c47b2bf555"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/fb6805e0-daf3-48bb-afac-1532da2513dd"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/b184a1b3-7b08-400b-9e9e-661e4ea89b35"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/1bc1fb1e-3617-4d73-8854-6c16d46c76bd"
+alt="Màn hình Thông tin project" height="230">
+      </td>
+    </tr>
+  </table>
+</p>
+
+### Hệ Thống Đặt Hàng
+
+### [Chi tiết bài tập](./HeThongDatHang).
+
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/01a4d298-6a8a-494a-82bd-5de4fd716f02"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/52f98fca-af70-42c1-b6ec-3482202374a0"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/a2872582-8dd8-4c8c-a860-5b0d3f58b956"
+alt="Màn hình Thông tin project" height="230">
+      </td>
+    </tr>
+  </table>
+</p>
+
+### Quản Lý Sản Phẩm
+
+### [Chi tiết bài tập](./QuanLySanPham).
+
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/6f67fab3-4efb-41e9-8521-e70466195ea6"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/291f6878-01cb-43be-811e-b5a24b3be5da"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/6769f411-a04c-45cb-be74-f867c68e4289" 
+alt="Màn hình Thông tin project" height="230">
+      </td>
+    </tr>
+  </table>
+</p>
+
+### Phần Mềm ToDoList
+
+### [Chi tiết code phần mềm](./ToDoList).
+
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/82e3a4fc-6fbd-44ce-b838-aafc61232857"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/61647970-bb01-45ed-96a0-75f573d40eee"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/5f7661b0-4547-4d42-b8bf-1ae7f3c08be5"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/f2814f88-19b7-431c-8ee6-420eb77c86b5"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/df1eaf97-df7d-4167-aaa0-e77955920534"
+alt="Màn hình Thông tin project" height="230">
+        <img src="https://github.com/user-attachments/assets/0e79be35-40ca-4bef-8036-46f32e3139b4"
+alt="Màn hình Thông tin project" height="230">
+      </td>
+    </tr>
+  </table>
+</p>
+
+
