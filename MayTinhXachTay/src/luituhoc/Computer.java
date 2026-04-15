@@ -56,9 +56,9 @@ public class Computer {
 	}
 
 	public void shutDown() {
-		if (!batTat) {
+		if (batTat) {
 			batTat = false;
-			System.out.println("Máy đã tắt");
+			System.out.println("Máy đang tắt");
 		} else {
 			System.out.println("Máy đã tắt sẵn !");
 		}

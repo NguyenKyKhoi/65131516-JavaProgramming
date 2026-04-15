@@ -39,7 +39,12 @@ public class MainQuanLyMayTinh {
 
 		for (var dt : dsGamingLaptop) {
 			System.out.println(dt.toString());
+			dt.start();
+			dt.batTurboBoost();
+			dt.shutDown();
 		}
+
+		sc.close();
 	}
 
 }
