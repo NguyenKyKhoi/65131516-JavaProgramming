@@ -10,6 +10,11 @@ public class MainObject {
 		FileReader fR = new FileReader("object_2");
 		BufferedReader bufReader = new BufferedReader(fR);
 		ArrayList<Object> dsOject = new ArrayList<Object>();
+		String line;
+		while ((line = bufReader.readLine()) != null) {
+			String[] parts = line.split(";\\s*");
+
+		}
 
 	}
 
