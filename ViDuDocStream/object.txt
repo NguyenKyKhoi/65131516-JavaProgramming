@@ -1,0 +1,36 @@
+Viết chương trình đọc và hiển thị danh sách sinh viên từ file SV.csv
+
+- In ra danh sách sinh viên trong file
+- Cho biết số lượng SV
+- Cho biến ds các SV sinh năm 2006
+- IN ra ds các Sinh viên nữ
+- In ra màn hình DS all sinh viên, được sập sếp tăng dần theo tên
+
+ Ví dụ:
+
+File SV.csv có dạng như sau
+STT Họ Têm; Năm Sinh; Giới Tình
+1; Lê Văn Mì Tôm; 2006; Nam
+2; Phạm Văn Mạnh Khỏe; 2007; Nửa Nam
+3; Trần Thị Xinh Đẹp; 2006; Nữ
+
+Xuất ra mà hình
+
+STT		Họ Têm				Năm Sinh	Giới Tính
+1		Lê Văn Mì Tôm		2006		Nam
+2		Phạm Văn Mạnh Khỏe	2007		Nửa Nam
+3		Trần Thị Xinh Đẹp 	2006		Nữ
+
+=> 1.Tổ chức Class SinhVien, với các thuộc tính tương ứng
+=> 2. Khai báo một mảng các sinh viên
+	ArrayList<SinhVien> dsSinhVien = new ArrayList<SinhVien>();
+=> 3. Dọc file
+Với mỗi dòng s, ta làm
++ 	Tách ra thành màng các chuỗi arrs, ký hiệu phân tách;;
++	new một sinh viên, với hàm tạo
+SinhVien sve new SinhVien(arrs[0], arr5[1], arr[2], arr[3])
++	thêm SV vào dsSinhVien
+	dsSinhVien.add(sv)
+	
+	
+	
