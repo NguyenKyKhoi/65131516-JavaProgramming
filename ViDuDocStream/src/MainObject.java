@@ -25,10 +25,10 @@ public class MainObject {
 			}
 		}
 
-		System.out.printf("%-5s %-25s %-15s %-10s", "STT", "Họ Tên", "Năm Sinh", "Giới Tính");
+		System.out.printf("%-5s %-25s %-15s %-10s", "STT", "Họ Tên", "Năm Sinh", "Giới Tính\n");
 		System.out.println("--------------------------------------------------------------");
 		for (var temp : dsObject) {
-			System.out.printf("%-5d %-25d %-15d %-10d", temp.getStt(), temp.getHoTen(), temp.getNamSinh(),
+			System.out.printf("%-5d %-25s %-15d %-10s\n", temp.getStt(), temp.getHoTen(), temp.getNamSinh(),
 					temp.getGioiTinh());
 		}
 
