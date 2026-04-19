@@ -1,0 +1,13 @@
+Viết chương trình tính tổng 2 số 
+với dữ liệu cho trong file văn bản Input.txt
+
+File Input.txt có format như sau (mỗi số trên 1 dòng)
+Số_thứ_nhất
+Số_thứ_hai
+
+Ví dụ
+Input.txt
+3
+5
+
+Chương trình xuất ra màn hình = 8
