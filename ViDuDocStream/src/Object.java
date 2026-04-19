@@ -47,8 +47,4 @@ public class Object {
 		this.gioiTinh = gioiTinh;
 	}
 
-	@Override
-	public String toString() {
-		return "Object [stt= " + stt + ", hoTen= " + hoTen + ", namSinh= " + namSinh + ", gioiTinh= " + gioiTinh + "]";
-	}
 }

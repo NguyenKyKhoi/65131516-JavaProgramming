@@ -9,7 +9,7 @@ public class MainObject {
 
 		FileReader fR = new FileReader("object_2.txt");
 		BufferedReader bufReader = new BufferedReader(fR);
-		ArrayList<Object> dsOject = new ArrayList<Object>();
+		ArrayList<Object> dsObject = new ArrayList<Object>();
 		String line;
 
 		while ((line = bufReader.readLine()) != null) {
@@ -21,12 +21,15 @@ public class MainObject {
 				int namSinh = Integer.parseInt(parts[2].trim());
 				String gioiTinh = parts[3].trim();
 				Object temp = new Object(stt, hoTen, namSinh, gioiTinh);
-				dsOject.add(temp);
+				dsObject.add(temp);
 			}
 		}
 
-		for (var x : dsOject) {
-			System.out.println(x.toString());
+		System.out.printf("%-5s %-25s %-15s %-10s", "STT", "Họ Tên", "Năm Sinh", "Giới Tính");
+		System.out.println("--------------------------------------------------------------");
+		for (var temp : dsObject) {
+			System.out.printf("%-5d %-25d %-15d %-10d", temp.getStt(), temp.getHoTen(), temp.getNamSinh(),
+					temp.getGioiTinh());
 		}
 
 	}
