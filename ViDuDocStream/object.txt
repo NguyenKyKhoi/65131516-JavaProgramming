@@ -10,6 +10,7 @@ Viết chương trình đọc và hiển thị danh sách sinh viên từ file S
 
 File SV.csv có dạng như sau
 STT Họ Têm; Năm Sinh; Giới Tình
+Ví dụ:
 1; Lê Văn Mì Tôm; 2006; Nam
 2; Phạm Văn Mạnh Khỏe; 2007; Nửa Nam
 3; Trần Thị Xinh Đẹp; 2006; Nữ
