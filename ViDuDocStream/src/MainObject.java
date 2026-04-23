@@ -12,6 +12,7 @@ public class MainObject {
 		ArrayList<Object> dsObject = new ArrayList<Object>();
 		String line;
 
+		// while để lấy dữ liệu trên một hàng trong file
 		while ((line = bufReader.readLine()) != null) {
 			String[] parts = line.split(";\\s*");
 
