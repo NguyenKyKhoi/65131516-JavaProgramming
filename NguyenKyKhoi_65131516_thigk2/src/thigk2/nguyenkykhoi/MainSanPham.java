@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 //1. tạo danh sách ArrayList dùng foreach kết hợp to String để xuất
 //2. thêm mới nhập từ bàn phím rồi dùng add thêm vào ds sản phẩm
+//3. Tìm kiếm loại sản phẩm là thực phẩm chức năng và xuất ra
 
 public class MainSanPham {
 
