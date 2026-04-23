@@ -18,7 +18,7 @@ public class MainSanPham {
 
 		dsSanPham.add(new SanPham("SP001", "Laptop Gaming G15", "Điện tử", 22500000));
 		dsSanPham.add(new SanPham("SP002", "Thuốc bổ máu", "Thực phẩm chức năng", 350000));
-		dsSanPham.add(new SanPham("SP003", "Bàn phím cơ K87", "Phụ kiện", 1200000));
+		dsSanPham.add(new SanPham("SP003", "Cây lau nhà", "Đồ dùng", 1200000));
 
 		for (var temp : dsSanPham) {
 			System.out.println(temp.toString());
