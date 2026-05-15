@@ -1,5 +1,32 @@
 <h1>Tổng quan kho lưu trữ bài tập JAVA của tôi !!!</h1>
 
+### ToDoList App
+
+#### [Chi tiết bài tập](./ToDoList_App)
+
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/7fa3f703-ce61-4e22-bf6a-ad7e214c8410" height="240">
+      </td>
+      <td>
+        <img src="https://github.com/user-attachments/assets/5c644bb3-3e2e-45d9-8594-bbdb341c6629" height="240">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/4d49b742-7af4-45a3-8007-d6b893132663" height="240">
+      </td>
+      <td>
+        <img src="https://github.com/user-attachments/assets/dbd92780-9fce-41ab-8db7-95afc39368bd" height="240">
+      </td>
+    </tr>
+  </table>
+</p>
+
+#### ứng dụng này quản lý công việc người dùng với việc thêm task và đánh dấu khi công việc làm xong sử dụng Java và JavaFX
+
 ### AbstractClass
 
 #### [Chi tiết bài tập](./AbstractClass)
@@ -8,7 +35,7 @@
   <table>
     <tr>
       <td>
-        <img src="https://github.com/user-attachments/assets/970d4c3b-6d98-4535-8ae7-654299b9cde9" alt="Màn hình Thông tin project" height="250">
+        <img src="https://github.com/user-attachments/assets/970d4c3b-6d98-4535-8ae7-654299b9cde9"alt="Màn hình Thông tin project" height="250">
         <img src="https://github.com/user-attachments/assets/ebe06d7a-fbda-406b-9309-12bfded767de"alt="Màn hình Thông tin project" height="250">
         <img src="https://github.com/user-attachments/assets/36f5e574-f170-4f2a-a43a-8a75cfa0ef8c"alt="Màn hình Thông tin project" height="250">
         <img src="https://github.com/user-attachments/assets/4d6dced0-2fc6-452b-a9a5-bbd12c30f24d"alt="Màn hình Thông tin project" height="250">
