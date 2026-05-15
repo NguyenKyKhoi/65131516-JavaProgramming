@@ -19,6 +19,27 @@
 
 #### ứng dụng này quản lý công việc người dùng với việc thêm task và đánh dấu khi công việc làm xong sử dụng Java và JavaFX
 
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="ảnh1" height="240">
+      </td>
+      <td>
+        <img src="ảnh2" height="240">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="ảnh3" height="240">
+      </td>
+      <td>
+        <img src="ảnh4" height="240">
+      </td>
+    </tr>
+  </table>
+</p>
+
 ### AbstractClass
 
 #### [Chi tiết bài tập](./AbstractClass)
