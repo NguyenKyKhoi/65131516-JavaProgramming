@@ -3,9 +3,11 @@ package com.nguyenkykhoi.ToDoList_App;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
 public class App extends Application {
@@ -24,11 +26,24 @@ public class App extends Application {
 		// Tạo chỗ nhập
 		TextField TFinput = new TextField();
 
-		// Tạo danh sách
-		ListView<String> List = new ListView<>();
+		// cho nút và chỗ nhập vào 1 chỗ ngang hàng
+		HBox hbox = new HBox(5);
+		hbox.getChildren().addAll(btn, TFinput);
 
-		grid.add(btn, 0, 0);
-		grid.add(TFinput, 0, 0);
+		// Tạo danh sách
+		ListView<CheckBox> List = new ListView<>();
+
+		// Thêm sự kiện khi nhấn
+		btn.setOnAction(e -> {
+			String text = TFinput.getText();
+			if (!text.isEmpty()) {
+				CheckBox checkBox = new CheckBox(text);
+				List.getItems().add(checkBox);
+				TFinput.clear();
+			}
+		});
+
+		grid.add(hbox, 0, 0);
 		grid.add(List, 0, 1);
 
 		primaryStage.setScene(scene);
