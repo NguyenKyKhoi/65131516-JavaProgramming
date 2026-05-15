@@ -8,10 +8,10 @@
   <table>
     <tr>
       <td>
-        <img src="https://github.com/user-attachments/assets/7fa3f703-ce61-4e22-bf6a-ad7e214c8410" alt="Màn hình Thông tin project" height="250">
-        <img src="https://github.com/user-attachments/assets/5c644bb3-3e2e-45d9-8594-bbdb341c6629" alt="Màn hình Thông tin project" height="250">
-        <img src="https://github.com/user-attachments/assets/4d49b742-7af4-45a3-8007-d6b893132663" alt="Màn hình Thông tin project" height="250">
-        <img src="https://github.com/user-attachments/assets/dbd92780-9fce-41ab-8db7-95afc39368bd" alt="Màn hình Thông tin project" height="250">
+        <img src="https://github.com/user-attachments/assets/7fa3f703-ce61-4e22-bf6a-ad7e214c8410" alt="Màn hình Thông tin project" height="240">
+        <img src="https://github.com/user-attachments/assets/5c644bb3-3e2e-45d9-8594-bbdb341c6629" alt="Màn hình Thông tin project" height="240">
+        <img src="https://github.com/user-attachments/assets/4d49b742-7af4-45a3-8007-d6b893132663" alt="Màn hình Thông tin project" height="240">
+        <img src="https://github.com/user-attachments/assets/dbd92780-9fce-41ab-8db7-95afc39368bd" alt="Màn hình Thông tin project" height="240">
       </td>
     </tr>
   </table>
