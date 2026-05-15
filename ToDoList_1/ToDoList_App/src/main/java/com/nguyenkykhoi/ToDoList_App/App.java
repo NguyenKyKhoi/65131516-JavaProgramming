@@ -2,36 +2,35 @@ package com.nguyenkykhoi.ToDoList_App;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.CheckBox;
+import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
-import javafx.scene.layout.VBox;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-/**
- * JavaFX App
- */
 public class App extends Application {
-
 	@Override
 	public void start(Stage primaryStage) {
-		// 1. Tạo một ListView, khai báo luôn là nó sẽ chứa các CheckBox
-		ListView<CheckBox> listView = new ListView<>();
 
-		// 2. Tạo trực tiếp các nút CheckBox
-		CheckBox task1 = new CheckBox("Học giao diện JavaFX");
-		CheckBox task2 = new CheckBox("Ôn tập C#");
-		task2.setSelected(true); // Thử cho cái này được tích sẵn
-		CheckBox task3 = new CheckBox("Làm To-Do List");
+		GridPane grid = new GridPane();
+		grid.setHgap(5);
+		grid.setVgap(5);
 
-		// 3. Ném các CheckBox đó vào ListView
-		listView.getItems().addAll(task1, task2, task3);
+		Scene scene = new Scene(grid, 400, 300);
 
-		// 4. Đưa ListView vào Layout và hiển thị
-		VBox root = new VBox(10);
-		root.getChildren().add(listView);
+		// Tạo nút thêm
+		Button btn = new Button("Click me");
 
-		Scene scene = new Scene(root, 300, 400);
-		primaryStage.setTitle("To-Do List Đơn Giản");
+		// Tạo chỗ nhập
+		TextField TFinput = new TextField();
+
+		// Tạo danh sách
+		ListView<String> List = new ListView<>();
+
+		grid.add(btn, 0, 0);
+		grid.add(TFinput, 0, 0);
+		grid.add(List, 0, 1);
+
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
