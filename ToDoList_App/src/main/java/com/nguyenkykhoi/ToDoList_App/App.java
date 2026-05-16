@@ -24,6 +24,9 @@ public class App extends Application {
 		// Tạo nút thêm
 		Button button = new Button("Add Task");
 
+		// Tạo nút xóa
+		Button deleteButton = new Button("Delete Task");
+
 		// Tạo chỗ nhập
 		TextField TFinput = new TextField();
 
@@ -60,10 +63,22 @@ public class App extends Application {
 			}
 		});
 
+		// thêm sự kiện khi nhấn nút xóa
+		deleteButton.setOnAction(d -> {
+			CheckBox selectionInList = List.getSelectionModel().getSelectedItem();
+			CheckBox selectionInDone = listDone.getSelectionModel().getSelectedItem();
+			if (selectionInList != null) {
+				List.getItems().remove(selectionInList);
+			} else if (selectionInDone != null) {
+				listDone.getItems().remove(selectionInDone);
+			}
+		});
+
 		grid.add(hbox, 0, 0);
 		grid.add(List, 0, 1);
 		grid.add(tDone, 1, 0);
 		grid.add(listDone, 1, 1);
+		grid.add(deleteButton, 0, 2);
 
 		primaryStage.setTitle("To Do List App");
 		primaryStage.setScene(scene);
