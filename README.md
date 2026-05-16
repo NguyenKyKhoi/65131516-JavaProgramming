@@ -8,24 +8,24 @@
   <table>
     <tr>
       <td>
-        <img src="https://github.com/user-attachments/assets/7fa3f703-ce61-4e22-bf6a-ad7e214c8410" height="240">
+        <img src="https://github.com/user-attachments/assets/936b9836-5869-4042-8518-e2562ebd6a65" height="240">
       </td>
       <td>
-        <img src="https://github.com/user-attachments/assets/5c644bb3-3e2e-45d9-8594-bbdb341c6629" height="240">
+        <img src="https://github.com/user-attachments/assets/14d2e3b5-db5e-4129-b380-a04158272f95" height="240">
       </td>
     </tr>
     <tr>
       <td>
-        <img src="https://github.com/user-attachments/assets/4d49b742-7af4-45a3-8007-d6b893132663" height="240">
+        <img src="https://github.com/user-attachments/assets/12c3278a-9370-4a50-94b9-5aa78386a8d0" height="240">
       </td>
       <td>
-        <img src="https://github.com/user-attachments/assets/dbd92780-9fce-41ab-8db7-95afc39368bd" height="240">
+        <img src="https://github.com/user-attachments/assets/d84ec1c4-31f5-4e9e-999c-fea3f55de15a" height="240">
       </td>
     </tr>
   </table>
 </p>
 
-#### ứng dụng này quản lý công việc người dùng với việc thêm task và đánh dấu khi công việc làm xong sử dụng Java và JavaFX
+#### ứng dụng này quản lý công việc người dùng với việc thêm, xóa task và đánh dấu khi công việc làm xong sử dụng Java và JavaFX
 
 ### AbstractClass
 
