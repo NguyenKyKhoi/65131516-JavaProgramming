@@ -32,7 +32,6 @@ public class Xe_vinfast extends Xe implements Phi {
 		this.phiTruocBa = phiTruocBa;
 	}
 
-	@Override
 	public double TinhPhiTruocBa() {
 		return phiTruocBa * giaBanXe();
 	}

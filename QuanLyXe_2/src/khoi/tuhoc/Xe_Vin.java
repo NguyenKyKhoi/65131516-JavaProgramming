@@ -12,6 +12,7 @@ public class Xe_Vin extends Xe {
 	}
 
 	public Xe_Vin() {
+		super();
 	}
 
 	public Xe_Vin(String dongXe, int soChoNgoi, int namSanXuat, String noiDangKy) {
